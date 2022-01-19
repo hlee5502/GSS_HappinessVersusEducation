@@ -46,7 +46,7 @@ gen married=.
 	sum educ4 happiness married
 	
 
-// CrossTtabulations
+// Crosstabulations
 	tab happiness educ4, col chi2 //IV vs DV 
 	tab educ4 married, col chi2 //IV vs Third Variable(aka control variable) 
 	tab happiness married, col chi2	//DV vs Third Variable(aka control variable) 
